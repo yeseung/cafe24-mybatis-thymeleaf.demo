@@ -5,6 +5,8 @@
 ## 배포
 * http://spring4345678509.cafe24.com/test
 
+![](https://github.com/yeseung/cafe24-mybatis-thymeleaf.demo/blob/master/20220616_113300_1655346780.png)
+
 
 ## 파일 생성
 
