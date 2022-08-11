@@ -1,7 +1,7 @@
 package com.gongdaeoppa.cafe24mybatisthymeleaf.service;
 
 import com.gongdaeoppa.cafe24mybatisthymeleaf.domain.Test;
-import com.gongdaeoppa.cafe24mybatisthymeleaf.mapper.TestMapper;
+import com.gongdaeoppa.cafe24mybatisthymeleaf.repository.TestRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -9,18 +9,18 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class TestService implements TestMapper {
+public class TestService implements TestRepository {
 
-    private final TestMapper testMapper;
+    private final TestRepository testRepository;
 
     @Override
     public List<Test> list() {
-        return testMapper.list();
+        return testRepository.list();
     }
 
     @Override
     public Long insert(Test test) {
-        testMapper.insert(test);
+        testRepository.insert(test);
         return test.getId();
     }
 }
