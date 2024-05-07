@@ -1,10 +1,7 @@
 
 
 CREATE TABLE `test` (
-`id` INT(11) NOT NULL AUTO_INCREMENT,
-`name` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb3_general_ci',
-PRIMARY KEY (`id`) USING BTREE
-)
-COLLATE='utf8mb3_general_ci'
-ENGINE=InnoDB
-;
+                        `id` int(11) NOT NULL AUTO_INCREMENT,
+                        `name` varchar(255) DEFAULT NULL,
+                        PRIMARY KEY (`id`) USING BTREE
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;

@@ -28,7 +28,7 @@ public class TestController {
 //        }
 //    }
 
-    @GetMapping("/test")
+    @GetMapping("/")
     public String home(Model model){
 
         //새 글
