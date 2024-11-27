@@ -1,10 +1,10 @@
-package com.gongdaeoppa.cafe24mybatisthymeleaf;
+package com.gongdaeoppa.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Cafe24MybatisThymeleafApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {

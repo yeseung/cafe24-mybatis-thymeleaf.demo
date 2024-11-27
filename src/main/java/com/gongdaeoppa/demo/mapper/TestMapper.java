@@ -1,7 +1,7 @@
-package com.gongdaeoppa.cafe24mybatisthymeleaf.repository;
+package com.gongdaeoppa.demo.mapper;
 
 
-import com.gongdaeoppa.cafe24mybatisthymeleaf.domain.Test;
+import com.gongdaeoppa.demo.dto.Test;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Options;
 import java.util.List;
 
 @Mapper
-public interface TestRepository {
+public interface TestMapper {
 
     //@Select("SELECT id, name FROM test ORDER BY ID DESC")
     List<Test> list();

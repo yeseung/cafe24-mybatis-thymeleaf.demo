@@ -1,13 +1,13 @@
-package com.gongdaeoppa.cafe24mybatisthymeleaf;
+package com.gongdaeoppa.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Cafe24MybatisThymeleafApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Cafe24MybatisThymeleafApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }

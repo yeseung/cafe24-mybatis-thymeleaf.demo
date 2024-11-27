@@ -1,8 +1,8 @@
-package com.gongdaeoppa.cafe24mybatisthymeleaf.controller;
+package com.gongdaeoppa.demo.controller;
 
 
-import com.gongdaeoppa.cafe24mybatisthymeleaf.domain.Test;
-import com.gongdaeoppa.cafe24mybatisthymeleaf.service.TestService;
+import com.gongdaeoppa.demo.dto.Test;
+import com.gongdaeoppa.demo.service.TestService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

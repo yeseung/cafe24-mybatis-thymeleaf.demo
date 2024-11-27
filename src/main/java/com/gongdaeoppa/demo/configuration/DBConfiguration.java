@@ -1,4 +1,4 @@
-package com.gongdaeoppa.cafe24mybatisthymeleaf.configuration;
+package com.gongdaeoppa.demo.configuration;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
@@ -37,7 +37,7 @@ public class DBConfiguration {
         SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
         sqlSessionFactoryBean.setDataSource(dataSource());
         sqlSessionFactoryBean.setMapperLocations(applicationContext.getResources("classpath:static/mapper/*.xml"));
-        sqlSessionFactoryBean.setTypeAliasesPackage("com.gongdaeoppa.cafe24mybatisthymeleaf.domain");
+        sqlSessionFactoryBean.setTypeAliasesPackage("com.gongdaeoppa.demo.dto");
         sqlSessionFactoryBean.setConfiguration(mybatisConfg());
         return sqlSessionFactoryBean.getObject();
     }

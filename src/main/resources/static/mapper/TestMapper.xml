@@ -3,7 +3,8 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.gongdaeoppa.cafe24mybatisthymeleaf.repository.TestRepository">
+<mapper namespace="com.gongdaeoppa.demo.mapper.TestMapper">
+
     <select id="list" resultType="Test">
         SELECT id, name FROM test ORDER BY ID DESC
     </select>

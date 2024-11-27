@@ -1,4 +1,4 @@
-package com.gongdaeoppa.cafe24mybatisthymeleaf.domain;
+package com.gongdaeoppa.demo.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
